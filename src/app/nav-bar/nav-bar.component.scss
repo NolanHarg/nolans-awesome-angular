@@ -1,0 +1,22 @@
+
+.p-button.p-button-secondary.p-button-text:enabled:hover {
+  background: rgba(111, 66, 193, 0.04);
+  border-color: transparent;
+  color: #6f42c1;
+}
+
+.p-button.p-button-secondary.p-button-text:enabled:focus {
+  background: rgba(111, 66, 193, 0.04);
+  border-color: transparent;
+  color: #6f42c1;
+}
+
+.p-button.p-button-secondary.p-button-text:enabled:active {
+  background: rgba(111, 66, 193, 0.16);
+  border-color: transparent;
+  color: #6f42c1;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+}
