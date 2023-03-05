@@ -1,0 +1,32 @@
+.outer-ring {
+  width: 50px; /* adjust to your preferred size */
+  height: 50px; /* adjust to your preferred size */
+  border: 1px solid black; /* the thickness and color of the outer ring */
+  border-radius: 50%; /* make the shape a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* add relative positioning to position the pseudo-element within the outer-ring */
+}
+
+.inner-dot {
+  width: 10px; /* adjust to your preferred size */
+  height: 10px; /* adjust to your preferred size */
+  background-color: black; /* the color of the dot */
+  border-radius: 50%; /* make the shape a circle */
+}
+
+.line {
+  content: "/2506";
+  position: absolute; /* add absolute positioning to position the element within the outer-ring */
+  top: -42px; /* set the top position to half of the line's height, adjusted for the border thickness of the outer ring */
+  left: 50%; /* set the left position to 50% to center the line horizontally */
+  width: 1px; /* adjust to your preferred thickness */
+  height: 37px; /* adjust to your preferred height */
+  background-color: black; /* the color of the line */
+  z-index: -1;
+}
+
+.page-icon {
+  padding: 2rem 2rem 2rem 10rem;
+}

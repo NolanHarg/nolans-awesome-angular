@@ -1,0 +1,19 @@
+
+.fadeInUp {
+  animation: fadeInUp;
+  animation-duration: 3s;
+}
+
+.container {
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute; /* add absolute positioning to the pseudo-element to position it within the container */
+  top: 0;
+  bottom: 0;
+  transform: translateX(-750%); /* adjust the horizontal position by half of the width of the divider */
+  width: 2px;
+  background-color: black;
+}

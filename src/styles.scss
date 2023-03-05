@@ -2,4 +2,32 @@
 @import "primeng/resources/themes/bootstrap4-light-purple/theme.css";
 @import "primeng/resources/primeng.min.css";
 @import "primeicons/primeicons.css";
-@import "/node_modules/primeflex/primeflex.css"
+@import "/node_modules/primeflex/primeflex.css";
+@import "node_modules/animate.css/animate.css";
+
+
+.pr-16 {
+  padding-right: 10rem;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-block-start: 0;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  color: #495057;
+  padding: 0;
+  appearance: none;
+  margin-block-start: 0;
+}
+
+.rounded-corners-top {
+  border-radius: 20px 20px 0 0;
+}

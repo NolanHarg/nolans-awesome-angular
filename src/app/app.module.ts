@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {ButtonModule} from 'primeng/button';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -12,9 +13,10 @@ import {ButtonModule} from 'primeng/button';
     NavBarComponent
   ],
   imports: [
-    ButtonModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
     BrowserModule,
-    AppRoutingModule
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
