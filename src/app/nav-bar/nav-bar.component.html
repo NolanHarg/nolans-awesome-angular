@@ -1,12 +1,29 @@
 
-<div class="flex justify-content-between align-items-center">
+<div class="flex justify-content-between align-items-center p-3 pb-0">
   <label class="pl-3 signature text-xl font-semi-bold">Nolan Hargreaves</label>
-  <nav role="navigation" aria-roledescription="navigation-bar" class="pr-16">
-    <button pButton type="button" label="About Me" class=" p-button-text p-button-secondary"></button>
-    <button pButton type="button" label="Skills" class=" p-button-text p-button-secondary"></button>
-    <button pButton type="button" label="Contact" class=" p-button-text p-button-secondary"></button>
-    <button pButton type="button" icon="pi pi-linkedin" label="LinkedIn" class=" p-button-text p-button-secondary"></button>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item w-6rem h-2rem" onclick="document?.getElementById('about-me')?.click()">
+        <a id="about-me" href="#" class="nav-link">About Me</a>
+      </li>
+      <li class="nav-item w-6rem h-2rem" onclick="document?.getElementById('skills')?.click()">
+        <a id="skills" href="#" class="nav-link">Skills</a>
+      </li>
+      <li class="nav-item w-6rem h-2rem" onclick="document?.getElementById('contact')?.click()">
+        <a id="contact" href="#" class="nav-link">Contact</a>
+      </li>
+      <li class="nav-item w-6rem h-2rem" onclick="document?.getElementById('linked-in')?.click()">
+        <i class="pi pi-linkedin"></i>
+        <a id="linked-in" href="#" class="nav-link">LinkedIn</a>
+      </li>
+    </ul>
   </nav>
+<!--  <nav role="navigation" aria-roledescription="navigation-bar" class="pr-16">-->
+<!--    <button pButton type="button" label="About Me" class=" p-button-text p-button-secondary"></button>-->
+<!--    <button pButton type="button" label="Skills" class=" p-button-text p-button-secondary"></button>-->
+<!--    <button pButton type="button" label="Contact" class=" p-button-text p-button-secondary"></button>-->
+<!--    <button pButton type="button" icon="pi pi-linkedin" label="LinkedIn" class=" p-button-text p-button-secondary"></button>-->
+<!--  </nav>-->
 </div>
 <hr>
 
