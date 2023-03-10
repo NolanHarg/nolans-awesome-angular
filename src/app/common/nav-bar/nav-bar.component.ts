@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,12 +7,17 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent implements OnInit {
+  constructor(private readonly router: Router) {
+  }
+
 
   ngOnInit(): void {
   }
 
-  public onClickNavItem(linkId: string): void {
-    document?.getElementById(linkId)?.click()
+  public isActive(route: string): boolean {
+    return this.router.url.includes(route);
   }
+
+
 
 }

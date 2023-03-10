@@ -1,7 +1,7 @@
 
 .signature {
   font-family: 'Brush Script MT', cursive;
-  color: rgba(145,124,159,1);
+  color: var(--purple-300);
   font-weight: 500;
 }
 
@@ -51,4 +51,14 @@
   background: rgba(111, 66, 193, 0.16);
   border-color: transparent;
   color: #6f42c1;
+}
+
+.nav-item-active {
+  background: rgba(111, 66, 193, 0.04);
+  border-color: transparent;
+}
+
+.nav-link-active {
+  color: #6f42c1;
+  text-decoration: underline;
 }
